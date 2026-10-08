@@ -133,17 +133,3 @@ Greenlight hypotheses, portfolio recommendations, and validation KPIs
 | 选择电影类型 | Compare genre economics and associated plot-keyword patterns | Normalised data, FIXED LOD calculations, ranking, interactive filtering |
 | 选择导演 / 选择演员 | Explore creative profiles alongside reviews, follower signals, and box office | Clustering, scatter/bubble views, detail-on-demand |
 | 选择电影时长 | Benchmark runtime against gross and genre context | Scatterplots, size/color encodings, filters |
-
-### Reproducibility
-
-- Interactive workbook: [Tableau Public dashboard](https://public.tableau.com/views/02Data-DrivenAnalysisforSuccessfulFilmProduction/1_4?:language=zh-CN&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-- Packaged workbook: [`02 Data-Driven Analysis for Successful Film Production.twbx`](02%20Data-Driven%20Analysis%20for%20Successful%20Film%20Production.twbx)
-- Raw data: [`moviedata.xlsx`](moviedata.xlsx), [`电影类型.xlsx`](电影类型.xlsx), and [`电影情节.xlsx`](电影情节.xlsx)
-- Static README charts: generated with [`scripts/generate_film_charts.py`](scripts/generate_film_charts.py)
-
-### Limitations
-
-- The data ends in 2016 and is heavily U.S.-weighted: **75.4%** of title records are marked USA and they contribute **88.8%** of reported box office. Results are not a current or globally representative market view.
-- Film titles can belong to multiple genres and have multiple plot keywords; genre/keyword totals must not be added together as unique-film totals.
-- Financial coverage is incomplete, and `gross − budget` excludes marketing, distribution, financing, residuals, and inflation. It is not a measure of net profit.
-- Historical associations are descriptive. A production-grade model should use time-aware train/test splits, out-of-sample evaluation, and features available before greenlight—then be reviewed for market, representation, and selection bias.
