@@ -170,7 +170,3 @@ The Full scorecard notebook is optional and substantially slower because it repe
 - Base-case return, LGD, budget and loss limits are managerial scenario assumptions rather than observed contract parameters.
 - The scorecard does not establish causality, and external scores may carry population or fairness risks that require governance review.
 - Economic conditions, calibration drift, funding costs and operating costs may materially change realised outcomes.
-
-## Project Context and Acknowledgements
-
-This repository contains the analytical code from a University of Adelaide Business Analytics group project, prepared here as a portfolio case study. Data originates from the Kaggle Home Credit Default Risk competition. Feature-engineering and EDA ideas were informed by public Home Credit community work, including notebooks by Will Koehrsen, alongside course materials; only the final project notebooks are included in this repository.
